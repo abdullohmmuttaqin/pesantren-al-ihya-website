@@ -34,6 +34,23 @@ nav h1 {
 }
 
 /* SECTION UMUM */
+/* HERO */
+#hero {
+  background-color: #e9f2ff;
+  padding: 4rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+
 section {
   max-width: 1200px;
   margin: 3rem auto;
@@ -44,3 +61,21 @@ section h2 {
   margin-bottom: 1rem;
   color: #0b5ed7;
 }
+
+/* MENU NAVBAR */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
