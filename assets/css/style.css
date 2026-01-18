@@ -227,6 +227,15 @@ footer {
   font-size: 14px;
 }
 
+/* ===== HAMBURGER MENU ===== */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 /* =========================
    RESPONSIVE (MOBILE)
 ========================= */
