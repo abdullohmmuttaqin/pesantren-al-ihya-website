@@ -162,7 +162,6 @@ nav a {
   color: #4b5563;
 }
 
-
 /* SECTION */
 section {
   padding: 60px 0;
@@ -178,3 +177,53 @@ footer {
   padding: 20px 0;
   margin-top: 40px;
 }
+
+/* FOOTER */
+.footer {
+  background-color: #0b3c5d;
+  color: white;
+  padding: 60px 0 0;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 16px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  background-color: #082f49;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 14px;
+}
+
