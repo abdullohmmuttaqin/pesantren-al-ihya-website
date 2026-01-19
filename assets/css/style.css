@@ -228,14 +228,11 @@ footer {
 }
 
 /* ===== HAMBURGER MENU ===== */
-/* ===== HAMBURGER MENU ===== */
-.menu-toggle {
+.hamburger {
   display: none;
   font-size: 28px;
-  background: none;
-  border: none;
-  color: white;
   cursor: pointer;
+  color: white;
 }
 
 /* MOBILE */
