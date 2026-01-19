@@ -258,4 +258,19 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    width: 100%;
+    background-color: #0b3c5d;
+    padding: 16px 0;
+  }
+
+  .nav-menu a {
+    padding: 10px 0;
+  }
+}
 
