@@ -14,23 +14,23 @@
 
   <!-- HEADER / NAVBAR -->
   <header class="navbar">
-  <div class="container nav-wrapper">
-    <div class="logo">
-      <h2>PP Al Ihya Ulumaddin</h2>
+    <div class="container nav-wrapper">
+      <div class="logo">
+        <h2>PP Al Ihya Ulumaddin</h2>
+      </div>
+
+      <div class="hamburger" id="hamburger">☰</div>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#">Beranda</a>
+        <a href="#">Profil</a>
+        <a href="#">Pendidikan</a>
+        <a href="#">Berita</a>
+        <a href="#">Galeri</a>
+        <a href="#">Kontak</a>
+      </nav>
     </div>
-
-    <div class="hamburger" id="hamburger">☰</div>
-
-    <nav class="nav-menu" id="navMenu">
-      <a href="#">Beranda</a>
-      <a href="#">Profil</a>
-      <a href="#">Pendidikan</a>
-      <a href="#">Berita</a>
-      <a href="#">Galeri</a>
-      <a href="#">Kontak</a>
-    </nav>
-  </div>
-</header>
+  </header>
 
 
   <!-- HERO (SATU-SATUNYA HERO) -->
@@ -132,13 +132,13 @@
   </footer>
 
   <script>
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("navMenu");
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
 
-  hamburger.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-  });
-</script>
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  </script>
 
 
 </body>

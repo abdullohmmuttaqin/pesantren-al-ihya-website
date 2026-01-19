@@ -237,28 +237,6 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 16px;
-  }
-
-  .nav-menu.active {
-    display: flex;
-  }
-
-  .nav-menu a {
-    margin: 8px 0;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
   .nav-wrapper {
     flex-wrap: wrap;
   }
